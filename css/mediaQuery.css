@@ -1,0 +1,165 @@
+@media screen and (min-width:0) and (max-width:600px) {
+    /* ****************home****************   */
+    .home h1{
+        font-size: 60px;
+    }
+    .home .home-item p{
+        width: 100%;
+    }
+    .home .home-info-item{
+        text-align: center;
+    }
+    .home .home-info-item p{
+        font-size: 34px;
+    }
+    .home .home-info-item span{
+        font-size: 14px;
+    }
+    .home .home-img:last-of-type{
+        right: 0%;
+    }
+    .home .home-img:last-of-type img{
+        transform: translateX(0px);
+        padding-left: 20px;
+    }
+
+    /* ****************services****************   */
+    .services h2, .design h2{
+        font-size: 48px;
+    }
+    
+    /* ****************design****************   */
+    .design .design-item p{
+        font-size: 20px;
+        padding-bottom: 18px;
+        line-height: 27.65px;
+    }
+    .design .design-item h3, .testmonial .testmonial-item h3, .testmonial .testmonial-contact h3{
+        font-size: 38px;
+    }
+
+    /* ****************testmonial****************   */
+    .design .design-item h3, .testmonial .testmonial-item h3, .testmonial .testmonial-contact h3{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .testmonial .testmonial-item h3{
+        margin-top: 80px;
+    }
+    .testmonial .testmonial-item .testmonial-text{
+        width: 67%;
+    }
+    .testmonial .testmonial-item .testmonial-text{
+        padding: 30px 24px;
+    }
+    .testmonial .testmonial-item .testmonial-item2 .testmonial-text{
+        width: 100%;
+    }
+    /* ****************testmonial-contact****************   */
+    .testmonial .testmonial-contact{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1000px) {
+    /* ****************home****************   */
+    .home h1{
+        font-size: 70px;
+    }
+    .home .home-item p{
+        width: 100%;
+    }
+    .home-info .home-info-item:nth-of-type(2){
+        text-align: center;
+    }
+    .home-info .home-info-item:last-child{
+        text-align: end;
+    }
+    .home .home-info-item p{
+        font-size: 34px;
+    }
+    .home .home-info-item span{
+        font-size: 14px;
+    }
+    .home .home-img:last-of-type{
+        right: 0%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .home .home-img:last-of-type img{
+        transform: translateX(0px);
+        padding-left: 36px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .home .home-img:last-of-type::before{
+        right: 85%;
+        bottom: 80%;
+    }
+
+    /* ****************services****************   */
+    .services h2, .design h2{
+        font-size: 48px;
+    }
+
+    /* ****************design****************   */
+    .design .design-item p{
+        font-size: 20px;
+        padding-bottom: 18px;
+        line-height: 27.65px;
+    }
+    .design .design-item h3, .testmonial .testmonial-item h3, .testmonial .testmonial-contact h3{
+        font-size: 38px;
+    }
+
+    /* ****************testmonial****************   */
+    .design .design-item h3, .testmonial .testmonial-item h3, .testmonial .testmonial-contact h3{
+        font-size: 38px;
+    }
+    .testmonial .testmonial-item .testmonial-text{
+        width: 70%;
+    }
+    .testmonial .testmonial-item .testmonial-text{
+        padding: 30px 24px;
+    }
+    .testmonial .testmonial-item .testmonial-item2 .testmonial-text{
+        width: 100%;
+    }
+    /* ****************testmonial-contact****************   */
+    .testmonial .testmonial-contact{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px){
+    /* ****************home****************   */
+    .home h1{
+        font-size: 70px;
+    }
+
+    /* ****************services****************   */
+    .services h2, .design h2{
+        font-size: 48px;
+    }
+
+    /* ****************design****************   */
+    .design .design-item p{
+        font-size: 20px;
+        padding-bottom: 18px;
+        line-height: 27.65px;
+    }
+    .design .design-item h3, .testmonial .testmonial-item h3, .testmonial .testmonial-contact h3{
+        font-size: 38px;
+    }
+
+    /* ****************testmonial****************   */
+    .testmonial .testmonial-item .testmonial-text{
+        width: 70%;
+    }
+    .testmonial .testmonial-item .testmonial-text{
+        padding: 30px 24px;
+    }
+    .testmonial .testmonial-item .testmonial-item2 .testmonial-text{
+        width: 100%;
+    }
+}
